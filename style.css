@@ -1,0 +1,245 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: 'EB Garamond', serif;
+
+
+}
+
+.nav{
+	display: flex;
+
+	padding: 20px;
+	margin: 0px;
+	background-color: #F4ECD6;
+
+	
+}
+
+
+
+
+
+li{
+	list-style-type: none;
+	
+	
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	
+	padding: 10px;
+	margin:  10px;
+	transition: 0.3s;
+}
+
+li a:hover{
+	color: #CBB8A9;
+	font-size: 1.2em;
+	border: 1px solid #CBB8A9;
+
+}
+
+.flag{
+
+	margin-left: 10vw;
+}
+
+.push{
+	margin-left: auto;
+}
+
+@media only screen and (max-width: 500px){
+/*	a{
+		background-color: blue;
+	}
+*/
+}
+
+.container1{
+	margin-top: 1vh;
+	height: 15vh;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*align-items: center;*/
+	background-color: #c1bed1;
+	color: white;
+
+	
+}
+
+/*.container1 h1{
+		padding-top: 20px;
+		margin-top: 2vh;
+}*/
+
+.name{
+	font-size: 2em;
+}
+/*.container1 h2{
+	margin-bottom: 1vh;
+}*/
+.container2{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+
+	
+	height: 40vh;
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	background-image: url(back1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+
+.container2 h1{
+	margin: 0px;
+	background-color: white;
+}
+
+.container3{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #E6E4E4;
+
+	font-size: 1.3em;
+	
+}
+
+.container4{
+	
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+	grid-gap: 10px;
+}
+
+.container4 .card{
+	padding: 30px;
+	background-color: #EAE8DC;
+
+
+
+
+}
+
+.card{
+
+}
+
+.card img:hover{
+	box-shadow: 10px 10px 73px 3px rgba(61,52,61,1);
+	transition: 0.5s;
+	transform: scale(1.101);
+
+}
+
+.card a{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.card:hover > h4{ color: #F3E0DB; transform: scale(1.101);transition: 0.5s;  }
+
+.card .view{
+	size: 100%;
+	opacity: 0;
+	font-size: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card:hover > .view{
+	transition: 4s;
+	color: white;
+	scale : 1.6;
+	opacity: 1;
+}
+
+.card h4{
+	font-weight: normal;
+	background-color: #D8C3A4;
+	display: flex;
+	font-size: 1.2em;
+	justify-content: center;
+	margin : 0px;
+	text-align: center;
+	border-radius: 3px;
+	box-shadow: 10px 4px 28px -8px rgba(0,0,0,0.75);
+	cursor: pointer;
+
+}
+.container4 .card img{
+	width: 100%;
+	cursor: pointer;
+
+}
+
+.bigcontainer{
+	margin-top: 1vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #EDF5E0;
+}
+.bienpiccontainer{
+	/*display: flex;
+	justify-content: center;*/
+	/*margin-left: auto;
+	margin-right:  auto;*/
+	height: 70%;
+	width: 70%;
+	background-color: black;
+	margin-top: 2vh;
+	
+}
+
+.bienpiccontainer img{
+	width:   100%;
+}
+
+.description{
+	margin-top: 1vh;
+}
+.description h2{
+	text-align: center;
+	background-color: #D8C3A4;
+	color: white;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.description p{
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.slider{
+	
+	
+	
+}
+.carousel{
+	size: 100%;
+
+}
+
+
